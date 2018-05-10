@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ChatContainer from './containers/ChatContainer';
+import AppContainer from './containers/AppContainer';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<ChatContainer />, document.getElementById('root'));
+ReactDOM.render(<AppContainer />, document.getElementById('root'));
 registerServiceWorker();
